@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# Skip Hire Page Redesign – Task Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **redesigned version** of a skip hire selection page as part of a frontend task for a full-stack developer position.
 
-Currently, two official plugins are available:
+The goal of the task was to completely redesign the provided page while maintaining its functionality, improving UI/UX, and ensuring responsiveness across both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ Built with **React** and **Vite**
+- 🎨 Styled using **Tailwind CSS** and **shadcn/ui**
+- 📱 Fully **responsive design** across devices
+- 🧩 Reusable and clean components
+- 🖼️ Interactive skip cards with image, size, and pricing
+- 📦 Visual indicator for skips **not allowed on the road**
+- ✅ “Select” → “Selected” toggle with bottom detail bar on selection
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Folder Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- TypeScript
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/skip-hire-redesign.git
+cd skip-hire-redesign
+
+
+ src/
+├── components/
+│ ├── SkipCard.tsx # Reusable skip card component
+│ ├── SelectedBar.tsx # Bottom bar that appears on selection
+│ └── ui/ # shadcn/ui components
+├── data/
+│ └── skips.ts # Sample skip data (can be replaced with API)
+├── App.tsx # Main page rendering layout
+└── index.tsx
