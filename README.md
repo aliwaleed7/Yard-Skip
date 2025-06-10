@@ -21,7 +21,15 @@ The goal of the task was to completely redesign the provided page while maintain
 ## 📁 Folder Structure
 
 
-
+src/
+├── components/
+│ ├── SkipCard.tsx # Reusable skip card component
+│ ├── SelectedBar.tsx # Bottom bar that appears on selection
+│ └── ui/ # shadcn/ui components
+├── data/
+│ └── skips.ts # Sample skip data (can be replaced with API)
+├── App.tsx # Main page rendering layout
+└── index.tsx
 ---
 
 ## 🛠️ Technologies Used
