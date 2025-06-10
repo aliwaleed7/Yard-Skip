@@ -21,11 +21,11 @@ const SkipCard: React.FC<SkipCardProps> = ({ skip, isSelected, onSelect }) => {
     >
       <CardContent className="p-6 flex flex-col items-center gap-4">
         {/* Skip Image */}
-        <div className="relative w-80 h-48 bg-gray-100 rounded-xl overflow-hidden select-none">
+        <div className="relative w-full aspect-video bg-gray-100 rounded-xl overflow-hidden select-none">
           <img
             src="/YardSkip.png"
             alt={`${skip.size} Yard Skip`}
-            className="h-full w-full object-contain pointer-events-none"
+            className="w-full h-full object-contain pointer-events-none"
           />
 
           {/* Top-right: Size */}
@@ -33,7 +33,7 @@ const SkipCard: React.FC<SkipCardProps> = ({ skip, isSelected, onSelect }) => {
             {skip.size} Yards
           </div>
 
-          {/* Bottom-center: Not Allowed On The Road (if size > 10) */}
+          {/* Bottom-left: Not Allowed On The Road */}
           {skip.size > 10 && (
             <div className="absolute bottom-2 left-2 flex items-center gap-2 rounded-lg bg-black px-3 py-1 text-sm font-semibold text-yellow-400 shadow-md select-none">
               Not Allowed On The Road
