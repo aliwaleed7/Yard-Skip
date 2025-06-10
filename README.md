@@ -18,19 +18,7 @@ The goal of the task was to completely redesign the provided page while maintain
 
 ---
 
-## 📁 Folder Structure
 
-
-src/
-├── components/
-│ ├── SkipCard.tsx # Reusable skip card component
-│ ├── SelectedBar.tsx # Bottom bar that appears on selection
-│ └── ui/ # shadcn/ui components
-├── data/
-│ └── skips.ts # Sample skip data (can be replaced with API)
-├── App.tsx # Main page rendering layout
-└── index.tsx
----
 
 ## 🛠️ Technologies Used
 
@@ -47,16 +35,20 @@ src/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/skip-hire-redesign.git
-cd skip-hire-redesign
+git clone https://github.com/aliwaleed7/Yard-Skip.git
+cd Yard-Skip
 
 
- src/
-├── components/
-│ ├── SkipCard.tsx # Reusable skip card component
-│ ├── SelectedBar.tsx # Bottom bar that appears on selection
-│ └── ui/ # shadcn/ui components
-├── data/
-│ └── skips.ts # Sample skip data (can be replaced with API)
-├── App.tsx # Main page rendering layout
-└── index.tsx
+2. **Install dependencies**
+
+```bash
+npm install
+
+3. **Run the development server**
+
+```bash
+npm run dev
+
+ 
+ 
+
