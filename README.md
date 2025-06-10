@@ -2,7 +2,9 @@
 
 This project is a **redesigned version** of a skip hire selection page as part of a frontend task for a full-stack developer position.
 
-The goal of the task was to completely redesign the provided page while maintaining its functionality, improving UI/UX, and ensuring responsiveness across both desktop and mobile devices.
+> 🎯 **Task Objective**:  
+> Redesign the entire page to look **completely different** from the original design while **preserving its functionality**.  
+> Focus on writing **clean, maintainable React code**, ensuring excellent **UI/UX**, and making the layout **fully responsive** on both desktop and mobile web browsers.
 
 ---
 
@@ -26,7 +28,7 @@ The goal of the task was to completely redesign the provided page while maintain
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
-- TypeScript
+- [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
