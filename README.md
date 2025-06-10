@@ -37,15 +37,19 @@ The goal of the task was to completely redesign the provided page while maintain
 ```bash
 git clone https://github.com/aliwaleed7/Yard-Skip.git
 cd Yard-Skip
+```
 
+2. **Install dependencies**
 
-2. Install dependencies
-
+```bash
 npm install
+```
 
-3. Run the development server
+3. **Run the development server**
 
+```bash
 npm run dev
+```
 
  
  
